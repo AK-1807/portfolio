@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@content: [
+      './src/**/*.{js,ts,jsx,tsx,mdx}', 
+      './components/**/*.{js,ts,jsx,tsx,mdx}', 
+  ]
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.container{
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section{
+  position: relative;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+
+h1{
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 1;
+}
+h2{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1;
+}
+h3{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+}
+h4{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+}
+h5{
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1;
+}
+h6{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+}
+p{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+a{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+}
+ /* rgb(117, 182, 235) */
