@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Banner() {
   return (
-    <section className="relative py-[100px] min-h-[700px] flex flex-wrap items-center">
+    <section className="relative py-[100px] min-h-[600px] flex flex-wrap items-center">
       <div className="absolute inset-0 bg-black opacity-[.2] z-[1]"></div>
       <div className="container">
         <div className="flex flex-wrap col-6 z-10 relative">

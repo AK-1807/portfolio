@@ -3,17 +3,17 @@ import React from "react";
 
 export default function Skills() {
   return (
-    <section class="technical_skill py-[80px] bg-white text-black" id="skills">
-      <div class="container">
-        <div class="w-full max-w-5xl mx-auto text-center mb-12">
-          <h3 class="mb-3 font-bold">Skills And Expertise</h3>
-          <p class="">
+    <section className="technical_skill py-[80px] bg-white text-black" id="skills">
+      <div className="container">
+        <div className="w-full max-w-5xl mx-auto text-center mb-12">
+          <h3 className="mb-3 font-bold">Skills And Expertise</h3>
+          <p className="">
             What truly excites me about my work is the opportunity to utilize
             fantastic tools and resources on a daily basis.
           </p>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          <div class="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <div className="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
             <Image
              className="object-contain"
               alt="person"
@@ -26,7 +26,7 @@ export default function Skills() {
               style="color: transparent; object-fit: contain;"
             />
           </div>
-          <div class="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
+          <div className="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
             <Image
             className="object-contain"
               alt="person"
@@ -39,7 +39,7 @@ export default function Skills() {
               style="color: transparent; object-fit: contain;"
             />
           </div>
-          <div class="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
+          <div className="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
             <Image
             className="object-contain"
               alt="person"
@@ -52,7 +52,7 @@ export default function Skills() {
               style="color: transparent; object-fit: contain;"
             />
           </div>
-          <div class="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
+          <div className="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
             <Image
             className="object-contain"
               alt="person"
@@ -65,7 +65,7 @@ export default function Skills() {
               style="color: transparent; object-fit: contain;"
             />
           </div>
-          <div class="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
+          <div className="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
             <Image
             className="object-contain"
               alt="person"
@@ -78,7 +78,7 @@ export default function Skills() {
               style="color: transparent; object-fit: contain;"
             />
           </div>
-          <div class="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
+          <div className="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
             <Image
             className="object-contain"
               alt="person"
@@ -91,7 +91,7 @@ export default function Skills() {
               style="color: transparent; object-fit: contain;"
             />
           </div>
-          <div class="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
+          <div className="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
             <Image
             className="object-contain"
               alt="person"
@@ -104,7 +104,7 @@ export default function Skills() {
               style="color: transparent; object-fit: contain;"
             />
           </div>
-          <div class="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
+          <div className="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
             <Image
             className="object-contain"
               alt="person"
@@ -117,7 +117,7 @@ export default function Skills() {
               style="color: transparent; object-fit: contain;"
             />
           </div>
-          <div class="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
+          <div className="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
             <Image
             className="object-contain"
               alt="person"
@@ -130,7 +130,7 @@ export default function Skills() {
               style="color: transparent; object-fit: contain;"
             />
           </div>
-          <div class="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
+          <div className="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
             <Image
             className="object-contain"
               alt="person"
@@ -143,7 +143,7 @@ export default function Skills() {
               style="color: transparent; object-fit: contain;"
             />
           </div>
-          <div class="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
+          <div className="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
             <Image
             className="object-contain"
               alt="person"
@@ -156,7 +156,7 @@ export default function Skills() {
               style="color: transparent; object-fit: contain;"
             />
           </div>
-          <div class="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
+          <div className="border border-gray-300 p-4 flex flex-wrap justify-center min-h-[275px]">
             <Image
             className="object-contain"
               alt="person"
