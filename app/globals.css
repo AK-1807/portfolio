@@ -59,26 +59,31 @@ h2{
   font-size: 50px;
   font-weight: 700;
   line-height: 1;
+  color: #0b0c10;
 }
 h3{
   font-size: 40px;
   font-weight: 700;
   line-height: 1;
+  color: #0b0c10;
 }
 h4{
   font-size: 30px;
   font-weight: 700;
   line-height: 1;
+  color: #0b0c10;
 }
 h5{
   font-size: 25px;
   font-weight: 700;
   line-height: 1;
+  /* color: #0b0c10; */
 }
 h6{
   font-size: 20px;
   font-weight: 600;
   line-height: 1;
+  color: #0b0c10;
 }
 p{
   font-size: 18px;
@@ -91,3 +96,9 @@ a{
   line-height: 1;
 }
  /* rgb(117, 182, 235) */
+
+ .banner{
+
+  background: radial-gradient(circle, hsla(210, 2%, 78%, 1) 0%, hsla(228, 19%, 5%, 1) 70%);
+
+ }

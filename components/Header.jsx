@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 bg-[#00000050] py-4 shadow-md z-20">
+    <header className="sticky top-0 bg-[#0B0C1080] py-4 shadow-md z-20">
       {/* <nav className="sticky top-0 bg-white py-4 shadow-md z-20"> */}
         <div className="container flex justify-between items-center">
           <div className="flex items-center">
